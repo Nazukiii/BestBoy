@@ -11,7 +11,7 @@
     --color-white: #fff;
     --color-black: #333;
     --color-text-purple: #bb07db;
-    --color-heart: #b002fa;
+    --color-heart: #fa0293;
     --color-bg-letter: #fff8e4;
     --color-border: #DACCBF;
 }
@@ -83,7 +83,7 @@ body {
     padding: 5px 15px;
     font-size: 1rem;
     border-radius: 50px;
-    border: 3px solid var(--color-black);
+    border: 3px solid var(--color-white);
     font-family: "Bungee Shade", bold;
     display: flex;
     align-items: center;
@@ -191,7 +191,7 @@ body {
     
 }
 .date__of__birth{
-    border: 3px solid var(--color-black);
+    border: 3px solid var(--color-white);
     position: relative;
     transform: translateY(-100px);
     z-index: -1;
@@ -227,7 +227,7 @@ body {
     position: absolute;
     padding: 0px 20px;
     bottom: -20px;
-    border: 3px solid var(--color-black);
+    border: 3px solid var(--color-white);
     font-family: 'Dancing Script', cursive;
 }
 .date__of__birth span, .name span{
