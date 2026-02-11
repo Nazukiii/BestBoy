@@ -7,11 +7,11 @@
     box-sizing: border-box;
 }
 :root{
-    --color-pink: #feecea;
+    --color-pink: #cf63b0;
     --color-white: #fff;
     --color-black: #333;
-    --color-text-pink: #FF7882;
-    --color-heart: #FF7882;
+    --color-text-purple: #bb07db;
+    --color-heart: #b002fa;
     --color-bg-letter: #fff8e4;
     --color-border: #DACCBF;
 }
@@ -29,7 +29,7 @@ body {
 #wrapper{
     position: relative;
     background-color: transparent;
-    background-image: linear-gradient(0deg, transparent 24%, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 1) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, 1) 75%, rgba(255, 255, 255, 1) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255,1) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, 1) 75%, rgba(255, 255, 255, 1) 76%, transparent 77%, transparent);
+    background-image: linear-gradient(0deg, transparent 24%, rgba(74, 32, 32, 1) 25%, rgba(74, 32, 32, 1) 26%, transparent 27%, transparent 74%, rgba(74, 32, 32, 1) 75%, rgba(74, 32, 32, 1) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(74, 32, 32, 1) 25%, rgba(74, 32, 32,1) 26%, transparent 27%, transparent 74%, rgba(74, 32, 32, 1) 75%, rgba(74, 32, 32, 1) 76%, transparent 77%, transparent);
     height:100%;
     background-size:80px 80px;
     overflow: hidden;
@@ -84,7 +84,7 @@ body {
     font-size: 1rem;
     border-radius: 50px;
     border: 3px solid var(--color-black);
-    font-family: "Sriracha", cursive;
+    font-family: "Bungee Shade", bold;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -125,7 +125,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    font-family: "Titan One", sans-serif;
+    font-family: "Jersey 15", sans-serif;
     font-size: 3rem;
     flex-direction: column;
     perspective: 1000px;
@@ -187,7 +187,7 @@ body {
     background-color: var(--color-text-pink);
     border-radius: 50px;
     margin-top: 20px;
-    font-family: "Sriracha", cursive;
+    font-family: "Bungee Shade", bold;
     
 }
 .date__of__birth{
@@ -313,7 +313,7 @@ body {
     color: var(--color-black);
     transform: rotate(calc(var(--i) * 24deg));
     transform-origin: 0 45px;
-    font-family: "Sriracha", cursive;
+    font-family: "Bungee Shade", bold;
     text-transform: uppercase;
     font-size: 0.7rem;
 }
@@ -501,7 +501,7 @@ body {
 }
 .letter__border .letter .title__letter{
     text-align: center;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Red Rose', sans serif;
     font-weight: bold;
     font-size: 2.4rem;
 }
@@ -594,7 +594,7 @@ body {
 .content__letter .right .text__letter{
     margin-top: 60px;
     padding: 20px 15px 10px 15px;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Red Rose', sans serif;
     font-size: 1.3rem;
 }
 .content__letter .right #mewmew{
@@ -656,7 +656,7 @@ body {
         width: 100%;
         display: flex;
         justify-content: center;
-        font-family: "Titan One", sans-serif;
+        font-family: "Red Rose", sans-serif;
         font-size: 1.5rem;
         letter-spacing: 8px;
         flex-direction: column;
@@ -673,7 +673,7 @@ body {
         font-size: 1rem;
         border-radius: 50px;
         border: 3px solid var(--color-black);
-        font-family: "Sriracha", cursive;
+        font-family: "Red Rose", sans serif;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -727,7 +727,7 @@ body {
 
     .letter__border .letter .title__letter {
         text-align: center;
-        font-family: 'Dancing Script', cursive;
+        font-family: 'Red Rose', sans serif;
         font-weight: bold;
         font-size: 1.4rem;
     }
@@ -744,7 +744,7 @@ body {
     .content__letter .right .text__letter {
         margin-top: -14px;
         padding: 20px 15px 10px 15px;
-        font-family: 'Dancing Script', cursive;
+        font-family: 'Red Rose', sans serif;
         font-size: .8rem;
     }
 
@@ -887,7 +887,7 @@ body {
     height: calc(100%);
 }
 .boxMail .boxMail-container .card1 h3{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Red Rose', sans serif;
     font-size: 40px;
     text-transform: uppercase;
     width: 80%;
@@ -948,7 +948,7 @@ body {
     }
 }
 .boxMail .boxMail-container .card2 h2{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Red Rose', sans serif;
     padding: 0px 20px;
     text-indent: 20px;
     font-size: 22px;
